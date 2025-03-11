@@ -92,7 +92,7 @@ export default function NotificationsPage1() {
         const notificationsData = querySnapshot.docs
           .map((doc) => ({ id: doc.id, ...doc.data() } as any))
           .filter(
-            (notification: any) => notification.isHidden
+            (notification: any) => !notification.isHidden
           ) as Notification[];
         setNotifications(notificationsData);
         setIsLoading(false);
