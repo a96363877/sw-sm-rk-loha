@@ -4,14 +4,14 @@ import { getFirestore } from 'firebase/firestore';
 import { getDatabase } from 'firebase/database';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCPtI0KgL01TA_TKJtj2V8ryIlPvrPapVg",
-  authDomain: "compajn.firebaseapp.com",
-  databaseURL: "https://compajn-default-rtdb.firebaseio.com",
-  projectId: "compajn",
-  storageBucket: "compajn.firebasestorage.app",
-  messagingSenderId: "533578029706",
-  appId: "1:533578029706:web:b9d73a4663b015fe39ab73",
-  measurementId: "G-L08L9REDW4"
+  apiKey: "AIzaSyCKJm0ZPKJtL770jecy8ld89Jgw7tw_DX4",
+  authDomain: "chatapp-6ef93.firebaseapp.com",
+  databaseURL: "https://chatapp-6ef93-default-rtdb.firebaseio.com",
+  projectId: "chatapp-6ef93",
+  storageBucket: "chatapp-6ef93.firebasestorage.app",
+  messagingSenderId: "28264268558",
+  appId: "1:28264268558:web:31442b89d29963ac114d5f",
+  measurementId: "G-LH4ZSPQ1YF"
 };
 
 const app = getApps().length > 0 ? getApp() : initializeApp(firebaseConfig);
